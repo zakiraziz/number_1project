@@ -89,4 +89,81 @@ Run the script using Python:
 bash
 Copy code
 python snake_water_gun.py
-Follow the on-screen prompts to play the game.# number_1project
+Follow the on-screen prompts to play the game.# number_1project\
+
+
+
+
+Turtle Graphics Color Pattern 
+
+This Python project creates a colorful geometric pattern using the turtle graphics library. It draws shapes with dynamic color transitions, forming an evolving 
+spiral-like design. The colors smoothly shift using the HSV color model, making the design vibrant and dynamic.
+
+
+
+How it Works:
+
+The turtle moves in a loop, drawing shapes at varying angles while changing colors.
+
+The colorsys.hsv_to_rgb() function is used to convert HSV values to RGB for smooth color transitions.
+
+
+The turtle resets its position to the center after each iteration, gradually rotating to create a spiral effect.
+
+
+
+Features:
+
+
+Color Transitions: Smooth transitions using the HSV color space.
+
+
+Geometric Design: Repeated shapes with varying angles, creating a spiral pattern.
+
+
+Customizable: You can modify the speed, size, and colors to create different patterns.
+
+
+Code:
+
+python
+
+Copy code
+
+from turtle import *
+
+import colorsys
+
+#
+
+# Main drawing loop
+
+for j in range(300):
+
+    fun()
+    goto(0, 0)  # Return to center
+    
+    rt(10)  # Rotate to create spiral effect
+
+
+
+done()
+
+Instructions:
+
+Install Python and make sure you have the turtle library installed (it comes pre-installed with Python).
+
+Run the script in a Python environment.
+
+
+
+Watch the turtle draw a colorful, spiraling pattern.
+
+Customization:
+
+Adjust the pensize() to change the line thickness.
+
+Modify the values in fd() and rt() to create different shapes and effects.
+
+Change the speed of drawing by modifying speed().
+

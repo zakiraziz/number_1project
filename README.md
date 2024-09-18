@@ -209,5 +209,59 @@ for j in range(300):
 
 
 
+    Turtle Graphics - Circular Pattern Animation
+    
+This project uses Python's turtle library to generate a mesmerizing circular pattern animation with dynamic colors. The pattern continuously changes as the 
+turtle moves, creating a beautiful and colorful design against a black background.
+
+
+Requirements
+
+To run this project, you need:
+
+
+Python 3.x
+turtle library (pre-installed with Python)
+colorsys library (to handle the color transitions)
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/zakiraziz/number_1project.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd number_1project
+Run the Python script:
+
+bash
+Copy code
+python 03_project.py
+Code Explanation
+Background Color: The background is set to black using bgcolor('black'), which makes the colorful design stand out.
+
+Speed: The animation is sped up using tracer(100) to ensure that the drawing process is fast and smooth.
+
+Drawing Logic:
+
+The draw function creates circular patterns using turtle's circle method. The radius of the circles changes based on the loop, creating a growing effect.
+The turtle moves at angles determined by ang and n to generate symmetrical patterns.
+Color Transition: The colors are dynamically generated using hsv_to_rgb(h, 1, 1), where the hue (h) is continuously incremented to smoothly transition between colors.
+
+Main Loop: The for loop runs 500 times, with each iteration drawing a combination of circles at different angles and sizes, creating a vibrant, evolving pattern.
+
+Output Example
+The program will output a stunning, spiraling circular pattern with a variety of colors blending into each other, as shown below:
+
+
+
+(Add a screenshot or GIF of the program's output here)
+
+
+
+
+
 done()
 

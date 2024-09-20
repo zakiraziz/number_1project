@@ -327,6 +327,16 @@ Requirements:
 Python 3.x
 turtle module (comes pre-installed with Python)
 time module for adding delays
+
+
+
+
+Future Improvements:
+Add more turtles for even more complex patterns.
+Customize the speed and size of the spirals.
+Include user input to change the colors or the speed dynamically.
+
+
 How to Run:
 Make sure you have Python installed on your system.
 Copy the script 04_project.py into your project folder.

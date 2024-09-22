@@ -337,6 +337,22 @@ Customize the speed and size of the spirals.
 Include user input to change the colors or the speed dynamically.
 
 
+
+
+Script Breakdown:
+Turtle Setup:
+
+Speed is set to the maximum (speed(0)) for fast drawing.
+Background is set to black (bgcolor("black")).
+Pen size is set to 3 (pensize(3)).
+Coloring:
+
+The hue starts from 0.1 and increments by 0.1 on each iteration.
+The colorsys.hsv_to_rgb() function is used to convert HSV values to RGB, where the hue keeps changing to create a gradient effect.
+Drawing:
+
+Two loops: the outer loop runs 80 times, and the inner loop runs 17 times.
+The turtle moves forward by an incrementally increasing distance based on i and j and turns left by a value derived from a mathematical calculation (lt(33/0.001)).
 How to Run:
 Make sure you have Python installed on your system.
 Copy the script 04_project.py into your project folder.
